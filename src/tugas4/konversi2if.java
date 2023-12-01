@@ -2,7 +2,7 @@ package tugas4;
 
 import java.util.Scanner;
 
-public class konfersi2if {
+class konfersi2if {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

@@ -4,7 +4,7 @@ import java.io.File;
 import static java.lang.System.out;
 import java.util.Scanner;
 
-public class DeleteEvidence {
+class DeleteEvidence2 {
 
     public static void main(String args[]) {
         File evidence = new File("cookedBooks.txt");
@@ -29,5 +29,4 @@ public class DeleteEvidence {
             keyboard.close();
         }
     }
-}
 }

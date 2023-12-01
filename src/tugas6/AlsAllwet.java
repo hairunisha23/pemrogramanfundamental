@@ -2,7 +2,7 @@ package tugas6;
 
 import static java.lang.System.out;
 
-public class AlsAllWet {
+class AlsAllWet {
 
     public static void main(String args[]) {
         for (int verse = 1; verse <= 3; verse++) {

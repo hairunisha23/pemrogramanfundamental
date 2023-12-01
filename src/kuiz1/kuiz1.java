@@ -13,4 +13,3 @@ package kuiz1;
         }
     }
 
-}

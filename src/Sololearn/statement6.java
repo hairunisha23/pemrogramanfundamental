@@ -31,3 +31,4 @@ public class statement6 {
             System.out.println("unknown color");
         }
     }
+}

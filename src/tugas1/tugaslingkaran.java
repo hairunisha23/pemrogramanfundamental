@@ -12,4 +12,3 @@ public class tugaslingkaran {
             System.out.println("Luas = "+luas);
         }
     }
-}

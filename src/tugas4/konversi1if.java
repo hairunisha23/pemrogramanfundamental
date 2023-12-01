@@ -6,7 +6,7 @@ public class konversi1if {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Masukkan nilai huruf: ");
-        String nilaiIndeks = input.nextLine().toUpperCase();
+        String nilaiHuruf = input.nextLine().toUpperCase();
 
         double nilaiIndeks;
 
@@ -27,5 +27,4 @@ public class konversi1if {
 
         System.out.println("Nilai indeks: " + nilaiIndeks);
     }
-	input.close();
 }

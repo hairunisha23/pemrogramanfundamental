@@ -12,4 +12,3 @@ public class persegi {
         System.out.println("Luas = "+luas);
     }
 }
-}

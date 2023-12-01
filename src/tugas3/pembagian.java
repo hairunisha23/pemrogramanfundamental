@@ -2,7 +2,7 @@ package tugas3;
 
 import java.util.Scanner;
 
-public class tugaspembagian {
+class tugaspembagian {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("masukkan jumlah nomor: ");

@@ -29,7 +29,7 @@ public class simplearray {
             total += input[y];
         }
 
-        double rataRata = double total / input.length;
+        double rataRata = total / input.length;
 
         System.out.println("TOTAL PENJUMLAHAN: " + total);
         System.out.println("RATA-RATA: " + rataRata);

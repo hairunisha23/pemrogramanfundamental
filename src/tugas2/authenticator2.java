@@ -18,5 +18,3 @@ package tugas2;
             }
         }
     }
-
-}

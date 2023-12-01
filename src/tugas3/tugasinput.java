@@ -1,35 +1,30 @@
 package tugas3;
 
+import static java.lang.System.out;
 import java.util.Scanner;
-
 public class tugasinput {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("input angka");
-        int angka = sc.nextInt();
-        switch (angka >= 0 && angka <=100) {
-            char nilaiHuruf;
-            double nilaiIndeks;
+        out.println("Input Nilai");
+        int nilai = sc.nextInt();
 
-        } case 1 (angka >= 90) {
+        if(nilai>=80 && nilai<=100) {
             out.println("A");
             out.println("4.0");
-
-        }  case 2(angka >= 80) {
+        } else if(nilai>=70 && nilai<80) {
             out.println("B");
             out.println("3.0");
-        }   case 3(angka >= 70) {
+        } else if(nilai>=60 && nilai<70) {
             out.println("C");
             out.println("2.0");
-        }     case 4(angka >= 60) {
+        } else if(nilai>=50 && nilai<60) {
             out.println("D");
             out.println("1.0");
-        }     case 5(angka >= 50) {
+        } else if(nilai>=0 && nilai<50) {
             out.println("E");
             out.println("0.0");
-        } if {
-            out.println("angka tidak valid");
-
+        } else {
+            out.println("error");
         }
     }
 }
