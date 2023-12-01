@@ -33,7 +33,7 @@ public class mahasiswa extends JFrame {
                 String alamat = taalamat.getText();
 
                 textAreanama.setText("Nama          :" + " " + nama);
-                textAreattl.setText("Tanggal Lahir          :" + " " + tltanggal + " " + tlbulan + " " + tltahun);
+                textAreattl.setText("Tanggal Lahir          :" + " " + tltanggal + " " + bulan.getSelectedItem() + " " + tltahun);
                 textAreaalamat.setText("Alamat          :" + " " + alamat);
                 LocalDate birthdate = LocalDate.of(tltahun, tlbulan, tltanggal);
                 LocalDate currentDate = LocalDate.now();
